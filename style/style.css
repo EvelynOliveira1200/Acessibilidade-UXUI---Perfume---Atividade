@@ -239,6 +239,7 @@ main {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
+    list-style: none;
 }
 
 .premio {
@@ -429,6 +430,7 @@ h4 {
     border-left: 4px solid #3498db;
 }
 
+
 .card-info h3 {
     margin-top: 0;
     color: #2c3e50;
@@ -438,6 +440,7 @@ h4 {
 .card-info ul {
     margin: 1rem 0;
     padding-left: 1.5rem;
+    list-style: none;
 }
 
 .card-info li {
@@ -642,7 +645,7 @@ input[type="radio"]:checked + .opcao-tamanho {
 }
 
 .resumo-pedido {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: #fffcfc;
     border: 2px solid #3498db;
     border-radius: 12px;
     padding: 2rem;
@@ -678,6 +681,7 @@ input[type="radio"]:checked + .opcao-tamanho {
 .detalhes-pedido {
     display: grid;
     gap: 0.5rem;
+    list-style: none;
 }
 
 .detalhes-pedido dt {
@@ -709,6 +713,8 @@ input[type="radio"]:checked + .opcao-tamanho {
     border-radius: 4px;
     margin-left: 0 !important;
     text-align: center;
+    border-color: #000000;
+    border-width: 2px;
 }
 
 .form-grid {
