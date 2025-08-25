@@ -639,13 +639,13 @@ input[type="radio"]:checked + .opcao-tamanho {
 }
 
 .select-quantidade:focus {
-    outline: 4px solid #3498db;
+    outline: 4px solid #cfecff;
     border-color: #3498db;
     background: #f8f9fa;
 }
 
 .resumo-pedido {
-    background: #fffcfc;
+    background: #dfecfb;
     border: 2px solid #3498db;
     border-radius: 12px;
     padding: 2rem;
@@ -901,6 +901,7 @@ input[type="radio"]:checked + .metodo-pagamento.destaque {
     padding: 1rem;
     background: #e8f5e8;
     border-radius: 8px;
+    list-style: none;
 }
 
 .garantia-item {

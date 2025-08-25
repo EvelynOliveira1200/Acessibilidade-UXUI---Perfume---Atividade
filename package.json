@@ -1,0 +1,16 @@
+{
+  "name": "acessibilidade-uxui---perfume---atividade",
+  "version": "1.0.0",
+  "description": "Este projeto contém uma versão **propositalmente problemática** de uma página web para você aprender a corrigir problemas de acessibilidade e semântica HTML. O arquivo `index.html` possui diversos erros que você deve identificar e corrigir.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

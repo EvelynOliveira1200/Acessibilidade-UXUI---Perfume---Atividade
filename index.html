@@ -11,9 +11,7 @@
 </head>
 
 <body>
-
     <main id="conteudo-principal">
-
         <header class="cabecalho-produto">
             <div class="marca-logo">
                 <h1 class="logo-sifurrah">SIFURRAH</h1>
@@ -27,13 +25,13 @@
 
                     <section class="badges-produto">
                         <div class="badge novo">
-                            <span>🆕</span> LANÇAMENTO
+                            LANÇAMENTO
                         </div>
                         <div class="badge melhor-vendido">
-                            <span>🏆</span> Nº1 EM VENDAS
+                            Nº1 EM VENDAS
                         </div>
                         <div class="badge exclusivo">
-                            <span>💎</span> EDIÇÃO LIMITADA
+                            EDIÇÃO LIMITADA
                         </div>
                     </section>
                 </div>
@@ -54,28 +52,24 @@
                     <div class="credenciais-produto">
 
                         <section class="avaliacao-estrelas">
-                            <span class="estrelas">★★★★★</span>
+                            <span class="estrelas">5 estrelas</span>
                             <span class="texto-avaliacao">4,8 de 5 estrelas | 2.847 clientes satisfeitos</span>
                         </section>
 
                         <ul class="premios-reconhecimentos" aria-label="Prêmios e reconhecimentos">
                             <li class="premio">
-                                <span>🏆</span>
                                 Melhor Fragrância Feminina 2024
                             </li>
                             <li class="premio">
-                                <span>🌟</span>
                                 Revista Vogue Beauty Awards
                             </li>
                         </ul>
 
                         <div class="disponibilidade">
                             <p class="estoque-urgencia">
-                                <span>⚡</span>
                                 <strong>Apenas 7 unidades restantes em estoque</strong>
                             </p>
                             <p class="frete-info">
-                                <span>🚚</span>
                                 <strong>Frete grátis para todo Brasil acima de R$ 200</strong>
                             </p>
                         </div>
@@ -86,7 +80,6 @@
             <section class="oferta-especial">
                 <div class="banner-oferta">
                     <span class="texto-oferta">
-                        <span>🔥</span>
                         OFERTA ESPECIAL: 10% de desconto à vista no PIX
                     </span>
                     <span class="tempo-limitado">Por tempo limitado!</span>
@@ -109,7 +102,7 @@
 
                 <div class="grid-info">
                     <div class="card-info">
-                        <h3><span>🌸</span> Notas Olfativas</h3>
+                        <h3>Notas Olfativas</h3>
                         <ul>
                             <li><strong>Notas de Topo:</strong> Bergamota, Limão Siciliano, Pêra
                             </li>
@@ -121,18 +114,18 @@
                     </div>
 
                     <div class="card-info">
-                        <h3><span>📋</span> Especificações Técnicas</h3>
+                        <h3>Especificações Técnicas</h3>
                         <ul>
                             <li>Concentração: Eau de Parfum 20%</li>
                             <li>Fixação: 8 a 12 horas</li>
-                            <li><span>🏆</span> Melhor Fragrância Feminina 2024</li>
-                            <li><span>📦</span> Embalagem premium</li>
+                            <li>Melhor Fragrância Feminina 2024</li>
+                            <li>Embalagem premium</li>
                         </ul>
                     </div>
                 </div>
 
                 <section class="avaliacoes-destaque">
-                    <h3><span>⭐</span> O que dizem nossos clientes</h3>
+                    <h3>O que dizem nossos clientes</h3>
                     <section class="depoimento-cliente">
                         <img src="/img/nonno.tiff" alt="Imagem do cliente satisfeito com o produto."
                             class="foto-cliente" loading="lazy" onerror="this.style.display='none'">
@@ -158,7 +151,6 @@
         </section>
         <section id="secao-compra" class="secao-compra">
             <h3 id="titulo-compra">
-                <span>🛒</span>
                 Fazer Pedido
             </h3>
 
@@ -170,317 +162,289 @@
                     <span class="texto-progresso">Passo <span id="passo-atual">1</span> de 4</span>
                 </div>
 
+                <fieldset class="passo-compra passo-1">
+                    <legend><strong>Passo 1: Escolha o tamanho do perfume</strong></legend>
+
+                    <p class="instrucao">Selecione uma das opções abaixo:</p>
+
+                    <div class="opcoes-tamanho">
+                        <label for="tamanho-50ml" class="opcao-tamanho">
+                            <input type="radio" id="tamanho-50ml" name="tamanho" value="50" data-preco="299.90" checked>
+                            <div class="tamanho-visual">
+                                <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=80&h=100&fit=crop&crop=center&q=90"
+                                    alt="Frasco de perfume Essencia de Suvacu 50ml" class="mini-frasco">
+                            </div>
+                            <div class="tamanho-info">
+                                <strong>50 mililitros - R$ 299,90</strong>
+                                <span class="descricao-opcao" id="desc-50ml">Tamanho ideal para experimentar</span>
+                            </div>
+                        </label>
+
+                        <label for="tamanho-75ml" class="opcao-tamanho popular">
+                            <input type="radio" id="tamanho-75ml" name="tamanho" value="75" data-preco="399.90">
+                            <div class="tamanho-visual">
+                                <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=80&h=100&fit=crop&crop=center&q=90"
+                                    alt="Frasco de perfume Essencia de Suvacu 75ml" class="mini-frasco">
+                            </div>
+                            <div class="tamanho-info">
+                                <strong>75 mililitros - R$ 399,90</strong>
+                                <span class="descricao-opcao" id="desc-75ml">
+                                    MAIS POPULAR - Melhor custo benefício
+                                </span>
+                            </div>
+                        </label>
+
+                        <label for="tamanho-100ml" class="opcao-tamanho melhor-valor">
+                            <input type="radio" id="tamanho-100ml" name="tamanho" value="100" data-preco="499.90">
+                            <div class="tamanho-visual">
+                                <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=80&h=100&fit=crop&crop=center&q=90"
+                                    alt="Frasco de perfume Essencia de Suvacu 100ml" class="mini-frasco">
+                            </div>
+                            <div class="tamanho-info">
+                                <strong>100 mililitros - R$ 499,90</strong>
+                                <span class="descricao-opcao" id="desc-100ml">
+                                    MELHOR VALOR - Maior economia
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="passo-compra passo-2">
+                    <legend><strong>Passo 2: Quantidade de produtos</strong></legend>
+                    <div class="quantidade-container">
+                        <label for="quantidade" class="label-quantidade">Quantos perfumes você deseja?</label>
+                        <select id="quantidade" name="quantidade" class="select-quantidade">
+                            <option value="1">1 perfume</option>
+                            <option value="2">2 perfumes</option>
+                            <option value="3">3 perfumes</option>
+                            <option value="4">4 perfumes</option>
+                            <option value="5">5 perfumes</option>
+                        </select>
+                        <p id="info-quantidade" class="ajuda">
+                            Máximo 5 unidades por pedido
+                        </p>
+                    </div>
+                </fieldset>
+
+                <fieldset class="passo-compra passo-3">
+                    <legend><strong>Passo 3: Seus dados para entrega</strong></legend>
+
+                    <div class="form-grid">
+                        <div class="grupo-campo campo-completo">
+                            <label for="nome">
+                                Nome completo *
+                            </label>
+                            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo"
+                                autocomplete="name">
+                            <div id="erro-nome" class="mensagem-erro"></div>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label for="cep">
+                                CEP *
+                            </label>
+                            <input type="text" id="cep" name="cep" placeholder="00000-000" required
+                                autocomplete="postal-code" maxlength="9">
+                            <p id="ajuda-cep" class="ajuda">Precisamos do CEP para calcular o frete</p>
+                            <div id="erro-cep" class="mensagem-erro"></div>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label for="endereco">
+                                Endereço completo
+                            </label>
+                            <input type="text" id="endereco" name="endereco" placeholder="Rua, número, bairro, cidade"
+                                autocomplete="street-address">
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label for="telefone">
+                                Telefone para contato
+                            </label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999"
+                                autocomplete="tel" maxlength="15">
+                            <p id="ajuda-telefone" class="ajuda">Para contato sobre a entrega</p>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label for="email">
+                                E-mail
+                            </label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com"
+                                autocomplete="email">
+                        </div>
+                    </div>
+                </fieldset>
+
                 <section class="resumo-pedido">
                     <h3 id="titulo-resumo">
-                        <span>📄</span>
                         Resumo do Seu Pedido
                     </h3>
                     <div class="resumo-visual">
                         <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=150&h=200&fit=crop&crop=center&q=90"
-                            alt="Frasco do perfume Essencia de Suvacu, edição limitada, 75ml" class="produto-resumo"
-                            id="imagem-resumo">
-
+                            alt="Imagem do perfume Essencia de Suvacu 50ml" class="produto-resumo" id="imagem-resumo">
                         <ul class="detalhes-pedido">
                             <li>Produto:</li>
-                            <li id="produto-selecionado">Perfume Essencia de Suvacu 50ml</li>
+                            <p id="produto-selecionado">Perfume Essencia de Suvacu 50ml</p>
 
                             <li>Quantidade:</li>
-                            <li id="quantidade-selecionada">1 unidade</li>
+                            <p id="quantidade-selecionada">1 unidade</p>
 
                             <li>Subtotal:</li>
-                            <li id="subtotal">R$ 299,90</li>
+                            <p id="subtotal">R$ 299,90</p>
 
                             <li>
-                                <span>💰</span>
                                 Desconto à vista (PIX):
                             </li>
-                            <li id="desconto" class="destaque-desconto">R$ 29,99 (10%)</li>
+                            <p id="desconto" class="destaque-desconto">R$ 29,99 (10%)</p>
 
                             <li><strong>Total à vista:</strong></li>
-                            <li id="total-avista" class="total-destaque"><strong>R$ 269,91</strong></li>
+                            <p id="total-avista" class="total-destaque"><strong>R$ 269,91</strong></p>
 
                             <li>
-                                <span>💳</span>
                                 Ou parcelado:
                             </li>
                             <li id="parcelamento">6x de R$ 49,98 sem juros</li>
                         </ul>
                     </div>
-                    </div>
-
-                    <fieldset class="passo-compra passo-1">
-                        <legend><strong>Passo 1: Escolha o tamanho do perfume</strong></legend>
-
-                        <p class="instrucao">Selecione uma das opções abaixo:</p>
-
-                        <div class="opcoes-tamanho">
-                            <label for="tamanho-50ml" class="opcao-tamanho">
-                                <input type="radio" id="tamanho-50ml" name="tamanho" value="50" data-preco="299.90"
-                                    checked>
-                                <div class="tamanho-visual">
-                                    <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=80&h=100&fit=crop&crop=center&q=90"
-                                        alt="Frasco de perfume Essencia de Suvacu 50ml" class="mini-frasco">
-                                </div>
-                                <div class="tamanho-info">
-                                    <strong>50 mililitros - R$ 299,90</strong>
-                                    <span class="descricao-opcao" id="desc-50ml">Tamanho ideal para experimentar</span>
-                                </div>
-                            </label>
-
-                            <label for="tamanho-75ml" class="opcao-tamanho popular">
-                                <input type="radio" id="tamanho-75ml" name="tamanho" value="75" data-preco="399.90">
-                                <div class="tamanho-visual">
-                                    <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=80&h=100&fit=crop&crop=center&q=90"
-                                        alt="Frasco de perfume Essencia de Suvacu 75ml" class="mini-frasco">
-                                </div>
-                                <div class="tamanho-info">
-                                    <strong>75 mililitros - R$ 399,90</strong>
-                                    <span class="descricao-opcao" id="desc-75ml">
-                                        <span>🔥</span>
-                                        MAIS POPULAR - Melhor custo benefício
-                                    </span>
-                                </div>
-                            </label>
-
-                            <label for="tamanho-100ml" class="opcao-tamanho melhor-valor">
-                                <input type="radio" id="tamanho-100ml" name="tamanho" value="100" data-preco="499.90">
-                                <div class="tamanho-visual">
-                                    <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=80&h=100&fit=crop&crop=center&q=90"
-                                        alt="Frasco de perfume Essencia de Suvacu 100ml" class="mini-frasco">
-                                </div>
-                                <div class="tamanho-info">
-                                    <strong>100 mililitros - R$ 499,90</strong>
-                                    <span class="descricao-opcao" id="desc-100ml">
-                                        <span>💰</span>
-                                        MELHOR VALOR - Maior economia
-                                    </span>
-                                </div>
-                            </label>
-                        </div>
-                    </fieldset>
-
-
-                    <fieldset class="passo-compra passo-2">
-                        <legend><strong>Passo 2: Quantidade de produtos</strong></legend>
-                        <div class="quantidade-container">
-                            <label for="quantidade" class="label-quantidade">Quantos perfumes você deseja?</label>
-                            <select id="quantidade" name="quantidade" class="select-quantidade">
-                                <option value="1">1 perfume</option>
-                                <option value="2">2 perfumes</option>
-                                <option value="3">3 perfumes</option>
-                                <option value="4">4 perfumes</option>
-                                <option value="5">5 perfumes</option>
-                            </select>
-                            <p id="info-quantidade" class="ajuda">
-                                <span>📦</span>
-                                Máximo 5 unidades por pedido
-                            </p>
-                        </div>
-                    </fieldset>
-
-                    <fieldset class="passo-compra passo-3">
-                        <legend><strong>Passo 3: Seus dados para entrega</strong></legend>
-
-                        <div class="form-grid">
-                            <div class="grupo-campo campo-completo">
-                                <label for="nome">
-                                    <span>👤</span>
-                                    Nome completo *
-                                </label>
-                                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo"
-                                    autocomplete="name">
-                                <div id="erro-nome" class="mensagem-erro"></div>
-                            </div>
-
-                            <div class="grupo-campo">
-                                <label for="cep">
-                                    <span>📍</span>
-                                    CEP *
-                                </label>
-                                <input type="text" id="cep" name="cep" placeholder="00000-000" required
-                                    autocomplete="postal-code" maxlength="9">
-                                <p id="ajuda-cep" class="ajuda">Precisamos do CEP para calcular o frete</p>
-                                <div id="erro-cep" class="mensagem-erro"></div>
-                            </div>
-
-                            <div class="grupo-campo">
-                                <label for="endereco">
-                                    <span>🏠</span>
-                                    Endereço completo
-                                </label>
-                                <input type="text" id="endereco" name="endereco"
-                                    placeholder="Rua, número, bairro, cidade" autocomplete="street-address">
-                            </div>
-
-                            <div class="grupo-campo">
-                                <label for="telefone">
-                                    <span>📱</span>
-                                    Telefone para contato
-                                </label>
-                                <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999"
-                                    autocomplete="tel" maxlength="15">
-                                <p id="ajuda-telefone" class="ajuda">Para contato sobre a entrega</p>
-                            </div>
-
-                            <div class="grupo-campo">
-                                <label for="email">
-                                    <span>📧</span>
-                                    E-mail
-                                </label>
-                                <input type="email" id="email" name="email" placeholder="seu@email.com"
-                                    autocomplete="email">
-                            </div>
-                        </div>
-                    </fieldset>
-
-                    <fieldset class="passo-compra passo-4">
-                        <legend><strong>Passo 4: Confirmar pedido</strong></legend>
-
-                        <section class="info-pagamento">
-                            <h3 id="titulo-pagamento">
-                                <span>💳</span>
-                                Formas de pagamento aceitas
-                            </h3>
-                            <div class="metodos-pagamento">
-                                <label for="pagamento-cartao" class="metodo-pagamento" id="desc-cartao">
-                                    <input type="radio" id="pagamento-cartao" name="pagamento" value="cartao">
-                                    <span>💳</span>
-                                    Cartão de crédito
-                                </label>
-                                <label for="pagamento-pix" class="metodo-pagamento destaque" id="desc-pix">
-                                    <input type="radio" id="pagamento-pix" name="pagamento" value="pix" checked>
-                                    <span>🔄</span>
-                                    PIX (10% desconto)
-                                </label>
-                                <label for="pagamento-boleto" class="metodo-pagamento" id="desc-boleto">
-                                    <input type="radio" id="pagamento-boleto" name="pagamento" value="boleto">
-                                    <span>📄</span>
-                                    Boleto bancário
-                                </label>
-                            </div>
-                        </section>
-
-                        <button type="button" id="finalizar-pedido" class="botao-principal" onclick="finalizarPedido()">
-                            <span>🛒</span>
-                            FINALIZAR PEDIDO - <span id="valor-final">R$ 269,91</span>
-                        </button>
-
-                        <ul class="garantias" id="garantias-lista">
-                            <li class="garantia-item">
-                                <span>✓</span>
-                                Garantia de 30 dias
-                            </li>
-                            <li class="garantia-item">
-                                <span>🚚</span>
-                                Frete grátis acima de R$ 200
-                            </li>
-                            <li class="garantia-item">
-                                <span>⚡</span>
-                                Entrega em 3-5 dias úteis
-                            </li>
-                        </ul>
-                    </fieldset>
-
-            </form>
-        </section>
-
-        <section id="mensagem-sucesso" class="oculto secao-sucesso">
-            <div class="icone-sucesso">✅</div>
-            <h3 id="titulo-sucesso">Pedido Realizado com Sucesso!</h3>
-
-            <div class="detalhes-sucesso">
-                <p><strong><span>🎉</span> Parabéns!</strong> Seu pedido do Perfume Essencia de
-                    Suvacu foi confirmado.</p>
-                <section id="mensagem-sucesso" class="oculto secao-sucesso" aria-live="polite">
-                    <div class="icone-sucesso">✅</div>
-                    <h1 id="titulo-sucesso">Pedido Realizado com Sucesso!</h1>
-
-                    <div class="detalhes-sucesso">
-                        <p><strong><span>🎉</span> Parabéns!</strong> Seu pedido do Perfume Essencia de
-                            Suvacu foi confirmado.</p>
-
-                        <dl class="card-pedido">
-                            <dt><span>📋</span> Número do pedido:</dt>
-                            <dd id="numero-pedido">SIFU12345</dd>
-
-                            <dt><span>💰</span> Total pago:</dt>
-                            <dd id="total-pago">R$ 269,91</dd>
-
-                            <dt><span>🚚</span> Prazo de entrega:</dt>
-                            <dd>3 a 5 dias úteis</dd>
-                        </dl>
-
-                        <p><span>📧</span> Você receberá um e-mail com os detalhes do pedido e o código
-                            de rastreamento.</p>
-
-                        <button type="button" onclick="novaCompra()" class="botao-secundario">
-                            <span>🔄</span> Fazer Nova Compra
-                        </button>
-                    </div>
                 </section>
-                <div class="info-expandivel">
-                    <div>
-                        <span>📄</span>
-                        Política de devolução e garantia
+                <fieldset class="passo-compra passo-4">
+                    <legend><strong>Passo 4: Confirmar pedido</strong></legend>
+
+                    <div class="info-pagamento">
+                        <h3 id="titulo-pagamento">
+                            Formas de pagamento aceitas
+                        </h3>
+                        <div class="metodos-pagamento">
+                            <label for="pagamento-cartao" class="metodo-pagamento">
+                                <input type="radio" id="pagamento-cartao" name="pagamento" value="cartao">
+                                Cartão de crédito
+                            </label>
+
+                            <label for="pagamento-pix" class="metodo-pagamento destaque">
+                                <input type="radio" id="pagamento-pix" name="pagamento" value="pix" checked>
+                                PIX (10% desconto)
+                            </label>
+
+                            <label for="pagamento-boleto" class="metodo-pagamento">
+                                <input type="radio" id="pagamento-boleto" name="pagamento" value="boleto">
+                                Boleto bancário
+                            </label>
+                        </div>
                     </div>
 
-                    <section class="secao-extra">
-                        <h2 id="titulo-informacoes">
-                            <span>ℹ️</span>
-                            Informações Adicionais
-                        </h2>
+                    <button type="button" id="finalizar-pedido" class="botao-principal" onclick="finalizarPedido()">
+                        FINALIZAR PEDIDO - <span id="valor-final">R$ 269,91</span>
+                    </button>
 
-                        <details class="info-expandivel">
-                            <summary><span>📄</span> Política de devolução e garantia</summary>
-                            <div class="conteudo-expandivel">
-                                <p>Você tem 30 dias para trocar ou devolver o produto se não estiver satisfeito. O
-                                    reembolso é
-                                    integral e o frete de devolução é por nossa conta.</p>
-                            </div>
-                        </details>
+                    <ul class="garantias" id="garantias-lista">
+                        <li class="garantia-item">
+                            Garantia de 30 dias
+                        </li>
+                        <li class="garantia-item">
+                            Frete grátis acima de R$ 200
+                        </li>
+                        <li class="garantia-item">
+                            Entrega em 3-5 dias úteis
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+            </div>
 
-                        <details class="info-expandivel">
-                            <summary><span>❓</span> Perguntas frequentes</summary>
-                            <div class="conteudo-expandivel">
-                                <div class="faq-item">
-                                    <h4>O perfume é unissex?</h4>
-                                    <p>Sim, o Essencia de Suvacu pode ser usado por homens e mulheres.</p>
-                                </div>
-                                <div class="faq-item">
-                                    <h4>Quanto tempo dura a fragrância?</h4>
-                                    <p>A fixação é de 8 a 12 horas, dependendo do tipo de pele.</p>
-                                </div>
-                                <div class="faq-item">
-                                    <h4>É adequado para uso diário?</h4>
-                                    <p>Sim, é versátil para qualquer ocasião, dia ou noite.</p>
-                                </div>
-                            </div>
-                        </details>
 
-                        <details class="info-expandivel">
-                            <summary><span>⭐</span> Mais avaliações dos clientes</summary>
-                            <div class="conteudo-expandivel">
-                                <div class="avaliacoes-lista">
-                                    <blockquote class="avaliacao-item">
-                                        <p>"Perfume maravilhoso com ótima fixação. Recomendo muito!"</p>
-                                        <footer>- Maria S., São Paulo</footer>
-                                    </blockquote>
-                                    <blockquote class="avaliacao-item">
-                                        <p>"Vale cada centavo. Fragrância única e marcante."</p>
-                                        <footer>- João P., Rio de Janeiro</footer>
-                                    </blockquote>
-                                    <blockquote class="avaliacao-item">
-                                        <p>"Entrega rápida e produto exatamente como descrito."</p>
-                                        <footer>- Ana L., Belo Horizonte</footer>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </details>
-                    </section>
+            <section id="mensagem-sucesso" class="oculto secao-sucesso" aria-labelledby="titulo-sucesso">
+                <h1 id="titulo-sucesso">Pedido Realizado com Sucesso!</h1>
+                <div class="detalhes-sucesso">
+                    <p><strong>Parabéns!</strong> Seu pedido do Perfume Essencia de
+                        Suvacu foi confirmado.</p>
 
-                    <footer class="rodape">
-                        <p>&copy; 2024 SIFURRAH. Todos os direitos reservados.</p>
-                        <p class="info-acessibilidade">Página otimizada para leitores de tela e navegação por teclado
-                        </p>
-                    </footer>
+                    <div class="card-pedido">
+                        <ul class="detalhes-pedido">
+                            <li>Número do pedido:</li>
+                            <li id="numero-pedido">SIFU12345</li>
+
+                            <li>Total pago:</li>
+                            <li id="total-pago">R$ 269,91</li>
+
+                            <li>Prazo de entrega:</li>
+                            <li>3 a 5 dias úteis</li>
+                        </ul>
+                    </div>
+
+                    <p>Você receberá um e-mail com os detalhes do pedido e o código
+                        de rastreamento.</p>
+
+                    <button type="button" onclick="novaCompra()" class="botao-secundario">
+                        Fazer Nova Compra
+                    </button>
+                </div>
+            </section>
+    </main>
+
+    <section class="secao-extra">
+        <h2 id="titulo-informacoes">
+            Informações Adicionais
+        </h2>
+
+        <details class="info-expandivel">
+            <summary>
+                Política de devolução e garantia
+            </summary>
+            <div class="conteudo-expandivel">
+                <p>Você tem 30 dias para trocar ou devolver o produto se não estiver satisfeito. O reembolso é
+                    integral e o frete de devolução é por nossa conta.</p>
+            </div>
+        </details>
+
+        <details class="info-expandivel">
+            <summary>
+                Perguntas frequentes
+            </summary>
+            <div class="conteudo-expandivel">
+                <div class="faq-item">
+                    <h4>O perfume é unissex?</h4>
+                    <p>Sim, o Essencia de Suvacu pode ser usado por homens e mulheres.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Quanto tempo dura a fragrância?</h4>
+                    <p>A fixação é de 8 a 12 horas, dependendo do tipo de pele.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>É adequado para uso diário?</h4>
+                    <p>Sim, é versátil para qualquer ocasião, dia ou noite.</p>
+                </div>
+            </div>
+        </details>
+
+        <details class="info-expandivel">
+            <summary>
+                Mais avaliações dos clientes
+            </summary>
+            <div class="conteudo-expandivel">
+                <div class="avaliacoes-lista">
+                    <div class="avaliacao-item">
+                        <blockquote>"Perfume maravilhoso com ótima fixação. Recomendo muito!"</blockquote>
+                        <span>- Maria S., São Paulo</span>
+                    </div>
+                    <div class="avaliacao-item">
+                        <blockquote>"Vale cada centavo. Fragrância única e marcante."</blockquote>
+                        <span>- João P., Rio de Janeiro</span>
+                    </div>
+                    <div class="avaliacao-item">
+                        <blockquote>"Entrega rápida e produto exatamente como descrito."</blockquote>
+                        <span>- Ana L., Belo Horizonte</span>
+                    </div>
+                </div>
+            </div>
+        </details>
+    </section>
+
+    <footer class="rodape">
+        <p>&copy; 2024 SIFURRAH. Todos os direitos reservados.</p>
+        <p class="info-acessibilidade">Página otimizada para leitores de tela e navegação por teclado</p>
+    </footer>
 </body>
+
+</html>
